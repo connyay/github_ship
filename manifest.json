@@ -1,0 +1,22 @@
+{
+   "name":"Github Ship",
+   "description":"Adds a ship it button to github",
+   "version":"1.0",
+   "content_scripts":[
+      {
+         "matches":[
+            "*://*.github.com/*pull/*"
+         ],
+         "js":[
+            "script.js"
+         ]
+      }
+   ],
+   "manifest_version": 2,
+   "icons":{
+      "16":"boat.png",
+      "32":"boat.png",
+      "128":"boat.png",
+      "256":"boat.png"
+   }
+}
