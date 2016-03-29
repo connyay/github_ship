@@ -169,6 +169,7 @@ function(){/*
     var shipBtn = document.createElement('button');
     shipBtn.className = 'btn';
     shipBtn.style.float = 'left';
+    shipBtn.style.marginLeft = "10px";
     shipBtn.appendChild(shipImg);
 
     shipBtn.onclick = function(ev) {
