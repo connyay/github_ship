@@ -5,7 +5,8 @@
    "content_scripts":[
       {
          "matches":[
-            "*://*.github.com/*pull/*"
+            "*://*.github.com/*pull/*",
+            "*//*.ibm.com/*pull/*"
          ],
          "js":[
             "script.js"
